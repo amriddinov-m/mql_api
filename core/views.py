@@ -7,4 +7,4 @@ class BotApiView(APIView):
     permission_classes = (AllowAny,)
 
     def get(self, request):
-        return Response({"message": "Hello, world!"})
+        return Response(['HELLO WORLD1', 'HELLO WORLD2'])
